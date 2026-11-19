@@ -1,25 +1,25 @@
-# Outcome Roadmap & Trade-off Memo
+# Outcome Roadmap & Trade-off Memo: Meridian Foundations
 
 > Module 2 · Turn Your Strategy into an Outcome Roadmap
 
 ## 1. Trade-off memo
 
-> **Rock 1:** _____
+> **Rock 1:** Create a foreman-facing mobile app (separate from the PM web app) (supports KR3): This will address the KR that prioritizings the experience in the field.
 >
-> **Rock 2:** _____
+> **Rock 2:** Build an offline-first mobile experience for job sites with poor connectivity (supports KR1): Testing if an offline-first mobile experience is critical to the success of the mobile experience. Validate that poor connectivity is a common issue on work sites.
 >
-> **Rock 3:** _____
+> **Rock 3:** Fix the Procore import/export integration (broken for 2 clients) (supports KR2): At least 2 clients submitted claims that the import/export feature was broken so this needs to be addressed for an immediate improvement in UX. This will help us execute the second KR because the clients have already helped to identify an issue.
 >
-> **Hard no 1:** _____
+> **Hard no 1:** Add real-time weather data to the scheduling module: There are weather apps build into all mobile devices and while that is a workaround, it's a quick one. The feature already exists on the device so it doesn't need to be a top priority this quarter.
 >
-> **Hard no 2:** _____
+> **Hard no 2:** Build an automated compliance checklist generator: Compliance checklists generated automatically is a convenience feature, not necessarily a must-have at this time. It has a smaller ROI than other features.
 >
-> **Hard no 3:** _____
+> **Hard no 3:** Add AI-assisted RFI (Request for Information) drafting: This feature doesn't seem like a critical task that is completed in the field therefore not needed in the field.
 
 ## 2. Outcome roadmap
 
 | Horizon | Outcome / bet | Owning team(s) | Success signal |
 |---|---|---|---|
-| Now (0 to 3 mo) | _____ | _____ | _____ |
+| Now (0 to 3 mo) | Horizon	Outcome / bet	Owning team(s)	Success signal Now (0 to 3 mo)	Bet 1 — Field adoption diagnosis: We bet identifying the primary behavioral, workflow, and technical barriers to field adoption will help Meridian prioritize investments that change daily field behavior. (Aligns to KR2: Field research); Bet 2 — Reduced field friction: We bet reducing the effort required to document and communicate job-site activity will make Meridian more useful to foremen and superintendents than their existing workarounds. (Aligns to KR1: MVP experience validation; KR3: MVP development); Bet 3 — Enterprise workflow reliability: We bet improving the reliability of project data exchange will reduce manual work and restore customer confidence in Meridian's enterprise workflows. (Supports KR2 indirectly: Customer pain-point validation; supports the broader enterprise platform value objective.)	Product Management, UX Research, Mobile Engineering, Integrations Engineering, Customer Success	15–20 interviews; three validated priority workflows; 80% independent task completion in usability testing; reduced task completion time versus workarounds; successful data exchange for both affected Procore clients. Next (3 to 6 mo)	Bet 1: We bet making field documentation easier than existing workarounds will increase recurring field participation and improve project information completeness. (Builds on KR1 and KR3); Bet 2: We bet enabling reliable field activity capture in low-connectivity environments will prevent connectivity from becoming a barrier to adoption. (Builds on KR1 and KR3); Bet 3: We bet eliminating duplicate documentation between field teams and project managers will improve productivity and data accuracy. (Builds on KR3); Bet 4: We bet demonstrating measurable productivity improvements in live customer environments will establish whether field adoption creates meaningful customer value. (Validates the broader strategic objective and informs future OKRs.)	Product, Mobile Engineering, UX Design, Platform Engineering, Customer Success	40% of invited field users completing a core workflow weekly during pilots; increased eligible field updates captured in Meridian; successful offline synchronization; reduced duplicate documentation; measurable improvement in documentation time. Later (6 to 12 mo)	Bet 1: Extending a proven field experience to additional enterprise and mid-market customers will increase adoption and strengthen Meridian's position across the construction lifecycle. (Future adoption and growth OKRs); Bet 2: Improving the timeliness and completeness of field data will give project leaders earlier visibility into execution risks and project performance. (Future customer productivity OKRs); Bet 3: Reducing friction between field activity and enterprise processes will improve data quality and reduce administrative effort across projects. (Future enterprise value OKRs); Bet 4: Helping customers embed Meridian into daily field routines will increase sustained usage beyond initial deployment. (Future adoption OKRs); Bet 5: Demonstrating that sustained field adoption improves customer retention and expansion will establish a commercial rationale for continued investment. (Future commercial impact OKRs)	Product, Platform Engineering, Data & Analytics, Customer Success, Sales, Strategy & Operations	Sustained adoption across customers; improved project visibility; reduced administrative effort; stronger customer satisfaction; evidence of improved retention and expansion. | _____ | _____ |
 | Next (3 to 6 mo) | _____ | _____ | _____ |
 | Later (6 to 12 mo) | _____ | _____ | _____ |
